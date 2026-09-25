@@ -1,0 +1,26 @@
+﻿# requirements.txt
+
+# Discord bot
+discord.py>=2.6,<3.0
+
+# Cryptography / Windows DPAPI
+pycryptodome>=3.23,<4.0
+pywin32>=311,<312
+
+# System information
+psutil>=7.0,<8.0
+
+# GUI / automation
+PyAutoGUI>=0.9.54,<1.0
+pyperclip>=1.9,<2.0
+
+# HTTP
+requests>=2.32,<3.0
+aiohttp>=3.12,<4.0
+
+# Image processing
+opencv-python>=4.12,<5.0
+Pillow>=11.3,<13.0
+
+# QR codes
+qrcode[pil]>=8.2,<9.0
